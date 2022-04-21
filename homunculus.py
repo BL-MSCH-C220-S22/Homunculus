@@ -264,7 +264,8 @@ world = {
           "label": "To the Admin rooms",
           "newPassage": "Administration",
           "pid": "18",
-          "selection": "7"
+          "selection": "7",
+          "requires":"12"
         }
       ],
       "cleanText": "You walk through the door from the airlock into a large, octagonal room. There are 8 doors, one for each side of the room- counting the one you just walked in from. They have labels above the doors for each branch off of the hallway."
