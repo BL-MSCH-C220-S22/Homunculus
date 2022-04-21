@@ -6,7 +6,7 @@ world = {
       "name": "First Room (WIP)",
       "tags": "",
       "pid": "1",
-      "text": "You suddenly jolt into conciousness, as if awakened from a decade long slumber. Sitting up, you notice you're completely naked, surrounded by what looks like a glowing circle with runes on it, and covered in (hopefully someone else's) blood. There is a large, steel door located along one of the walls. As your eyes get used to the dark of the room, you see a small white card with what used to be a picture and a name, but has been badly burned. You can barely make out the words ''\"Michael Clark\"''.\nAfter regaining the energy to stand, you slowly lurch to your feet. You can see your breath. Do you:\n[[Examine the room further->Examine the room further]]\n[[Check out the door->Check out the door]]",
+      "text": "You suddenly jolt into conciousness, as if awakened from a decade long slumber. Sitting up, you notice you're completely naked, surrounded by what looks like a glowing circle with runes on it, and covered in (hopefully someone else's) blood. There is a large, steel door located along one of the walls. As your eyes get used to the dark of the room, you see a small white card with what used to be a picture and a name, but has been badly burned. You can barely make out the words \"Michael Clark\".\nAfter regaining the energy to stand, you slowly lurch to your feet. You can see your breath. Do you:\n[[Examine the room further->Examine the room further]]\n[[Check out the door->Check out the door]]",
       "links": [
         {
           "original": "[[Examine the room further->Examine the room further]]",
@@ -23,7 +23,7 @@ world = {
           "selection": "2"
         }
       ],
-      "cleanText": "You suddenly jolt into conciousness, as if awakened from a decade long slumber. Sitting up, you notice you're completely naked, surrounded by what looks like a glowing circle with runes on it, and covered in (hopefully someone else's) blood. There is a large, steel door located along one of the walls. As your eyes get used to the dark of the room, you see a small white card with what used to be a picture and a name, but has been badly burned. You can barely make out the words ''\"Michael Clark\"''.\nAfter regaining the energy to stand, you slowly lurch to your feet. You can see your breath. Do you:"
+      "cleanText": "You suddenly jolt into conciousness, as if awakened from a decade long slumber. Sitting up, you notice you're completely naked, surrounded by what looks like a glowing circle with runes on it, and covered in (hopefully someone else's) blood. There is a large, steel door located along one of the walls. As your eyes get used to the dark of the room, you see a small white card with what used to be a picture and a name, but has been badly burned. You can barely make out the words \"Michael Clark\".\nAfter regaining the energy to stand, you slowly lurch to your feet. You can see your breath. Do you:"
     },
     {
       "name": "Examine the room further",
@@ -74,7 +74,7 @@ world = {
           "original": "[[Attempt to open the door->Attempt to open door ]]",
           "label": "Attempt to open the door",
           "newPassage": "Attempt to open door",
-          "pid": "6",
+          "pid": "",
           "selection": "2"
         }
       ],
@@ -107,7 +107,7 @@ world = {
       "name": "Attempt to open door ",
       "tags": "1",
       "pid": "6",
-      "text": "The door has a similar device attatched to it as the lockers that are also in the room- you swipe the ID you found. After a couple seconds, the door shudders open and slowly retreats to an open state. Red light floods into the airlock, pulsing from the numerous sirens. Suddenly, a warning bellows in your ears, seemingly from in the walls: ''ALERT: Primary generators OFFLINE, facility will be sealed once emergency power is drained. Recommendation: Director please collect all critical research and evacuate the facility.''\n[[Move into the large room->Hallway]]",
+      "text": "The door has a similar device attatched to it as the lockers that are also in the room- you swipe the ID you found. After a couple seconds, the door shudders open and slowly retreats to an open state. Red light floods into the airlock, pulsing from the numerous sirens. Suddenly, a warning bellows in your ears, seemingly from in the walls: \"ALERT: Primary generators OFFLINE, facility will be sealed once emergency power is drained. Recommendation: Director please collect all critical research and evacuate the facility\"\n[[Move into the large room->Hallway]]",
       "links": [
         {
           "original": "[[Move into the large room->Hallway]]",
@@ -117,7 +117,7 @@ world = {
           "selection": "1"
         }
       ],
-      "cleanText": "The door has a similar device attatched to it as the lockers that are also in the room- you swipe the ID you found. After a couple seconds, the door shudders open and slowly retreats to an open state. Red light floods into the airlock, pulsing from the numerous sirens. Suddenly, a warning bellows in your ears, seemingly from in the walls: ''ALERT: Primary generators OFFLINE, facility will be sealed once emergency power is drained. Recommendation: Director please collect all critical research and evacuate the facility.''"
+      "cleanText": "The door has a similar device attatched to it as the lockers that are also in the room- you swipe the ID you found. After a couple seconds, the door shudders open and slowly retreats to an open state. Red light floods into the airlock, pulsing from the numerous sirens. Suddenly, a warning bellows in your ears, seemingly from in the walls: \"ALERT: Primary generators OFFLINE, facility will be sealed once emergency power is drained. Recommendation: Director please collect all critical research and evacuate the facility\""
     },
     {
       "name": "Attempt to open lockers",
@@ -192,7 +192,7 @@ world = {
       "name": "Attempt to unlock tablet",
       "tags": "1",
       "pid": "10",
-      "text": "You punch in a 4 number combination to the tablet, without avail.\n[[Back to room->Airlock]]\n[[Try again->Attempt2]]",
+      "text": "You punch in a 4 number combination to the tablet, without avail.\nYou take the tablet with you, just in case.\n[[Back to room->Airlock]]\n[[Try again->Attempt2]]",
       "links": [
         {
           "original": "[[Back to room->Airlock]]",
@@ -209,13 +209,13 @@ world = {
           "selection": "2"
         }
       ],
-      "cleanText": "You punch in a 4 number combination to the tablet, without avail."
+      "cleanText": "You punch in a 4 number combination to the tablet, without avail.\nYou take the tablet with you, just in case."
     },
     {
       "name": "Hallway",
       "tags": "",
       "pid": "11",
-      "text": "You walk through the door from the airlock into a large, octagonal room. There are 8 doors, one for each side of the room- counting the one you just walked in from. They have labels above the doors for each branch off of the hallway.\n[[To the Dorms->Dorm rooms]]\n[[To the Morgue->Morgue]]\n[[To the Lab->Laboratory]]\n[[To Training rooms->Training]]\n[[To the Library->Library]]\n[[To the Cafeteria->Cafeteria]]\n[[To the Admin rooms->Administration]]",
+      "text": "You walk through the door from the airlock into a large, nine-sided room. There are 9 doors, one for each side of the room- counting the one you just walked in from. They have labels above the doors for each branch off of the hallway.\n[[To the Dorms->Dorm rooms]]\n[[To the Morgue->Morgue]]\n[[To the Lab->Laboratory]]\n[[To Training rooms->Training]]\n[[To the Library->Library]]\n[[To the Cafeteria->Cafeteria]]\n[[To the Admin rooms->Administrationfake]]\n[[To the Exit->Exit]]",
       "links": [
         {
           "original": "[[To the Dorms->Dorm rooms]]",
@@ -260,14 +260,21 @@ world = {
           "selection": "6"
         },
         {
-          "original": "[[To the Admin rooms->Administration]]",
+          "original": "[[To the Admin rooms->Administrationfake]]",
           "label": "To the Admin rooms",
-          "newPassage": "Administration",
-          "pid": "18",
+          "newPassage": "Administrationfake",
+          "pid": "40",
           "selection": "7"
+        },
+        {
+          "original": "[[To the Exit->Exit]]",
+          "label": "To the Exit",
+          "newPassage": "Exit",
+          "pid": "36",
+          "selection": "8"
         }
       ],
-      "cleanText": "You walk through the door from the airlock into a large, octagonal room. There are 8 doors, one for each side of the room- counting the one you just walked in from. They have labels above the doors for each branch off of the hallway."
+      "cleanText": "You walk through the door from the airlock into a large, nine-sided room. There are 9 doors, one for each side of the room- counting the one you just walked in from. They have labels above the doors for each branch off of the hallway."
     },
     {
       "name": "Dorm rooms",
@@ -430,17 +437,40 @@ world = {
       "name": "Cafeteria",
       "tags": "1",
       "pid": "17",
-      "text": "Double-click this passage to edit it.",
-      "links": [],
-      "cleanText": "Double-click this passage to edit it."
+      "text": "As you pass through the doorway marked \"Cafeteria\", you enter a similar-sized room to all of the others connected to the hallway. There are party banners and hats strewn about, with some hanging from the ceiling. There is a door marked \"Kitchen\" that leads to the area behind some serving lanes. Trays of various food items are on top of some of the dining tables, mostly empty. While thinking about what kind of celebration could have taken place here, you feel yourself getting a bit hungry.\n[[Scrounge up some food->Food]]\n[[Investigate kitchen->Kitchen]]",
+      "links": [
+        {
+          "original": "[[Scrounge up some food->Food]]",
+          "label": "Scrounge up some food",
+          "newPassage": "Food",
+          "pid": "33",
+          "selection": "1"
+        },
+        {
+          "original": "[[Investigate kitchen->Kitchen]]",
+          "label": "Investigate kitchen",
+          "newPassage": "Kitchen",
+          "pid": "34",
+          "selection": "2"
+        }
+      ],
+      "cleanText": "As you pass through the doorway marked \"Cafeteria\", you enter a similar-sized room to all of the others connected to the hallway. There are party banners and hats strewn about, with some hanging from the ceiling. There is a door marked \"Kitchen\" that leads to the area behind some serving lanes. Trays of various food items are on top of some of the dining tables, mostly empty. While thinking about what kind of celebration could have taken place here, you feel yourself getting a bit hungry."
     },
     {
       "name": "Administration",
-      "tags": "",
+      "tags": "1",
       "pid": "18",
-      "text": "Double-click this passage to edit it.",
-      "links": [],
-      "cleanText": "Double-click this passage to edit it."
+      "text": "You enter the administration office to a well-decorated room, far from the clean atmosphere of the Hallway or Airlock. Towards the back of the room, there is a large desk with a nameplate. It reads \"Michael Clark\". All along the sides of the room are cabinets, which appear to be locked. In a burst of curiosity, you sit down at the chair to see if any of the desk cabinets are unlocked. Suddenly, a speaker near your head blares: \"COMMENCING DATA BACKUP. PLEASE SUBMIT DEVICE. The nameplate is kicked over and reveals a small docking port.\n[[Connect the tablet->Passatmpt]]",
+      "links": [
+        {
+          "original": "[[Connect the tablet->Passatmpt]]",
+          "label": "Connect the tablet",
+          "newPassage": "Passatmpt",
+          "pid": "37",
+          "selection": "1"
+        }
+      ],
+      "cleanText": "You enter the administration office to a well-decorated room, far from the clean atmosphere of the Hallway or Airlock. Towards the back of the room, there is a large desk with a nameplate. It reads \"Michael Clark\". All along the sides of the room are cabinets, which appear to be locked. In a burst of curiosity, you sit down at the chair to see if any of the desk cabinets are unlocked. Suddenly, a speaker near your head blares: \"COMMENCING DATA BACKUP. PLEASE SUBMIT DEVICE. The nameplate is kicked over and reveals a small docking port."
     },
     {
       "name": "Investigate the table",
@@ -675,7 +705,7 @@ world = {
       "name": "Attempt2",
       "tags": "1",
       "pid": "32",
-      "text": "You hurriedly tap in another code, just to be met with the same locked screen.\n[[Back to room->Airlock]]\n[[Try again->Attempt2]]",
+      "text": "You hurriedly tap in another code, just to be met with the same locked screen. You take the tablet with you.\n[[Back to room->Airlock]]\n[[Try again->Attempt2]]",
       "links": [
         {
           "original": "[[Back to room->Airlock]]",
@@ -692,7 +722,293 @@ world = {
           "selection": "2"
         }
       ],
-      "cleanText": "You hurriedly tap in another code, just to be met with the same locked screen."
+      "cleanText": "You hurriedly tap in another code, just to be met with the same locked screen. You take the tablet with you."
+    },
+    {
+      "name": "Food",
+      "tags": "2",
+      "pid": "33",
+      "text": "Searching the numerous trays, you find a little less than half of a brownie. Holding it in your hand and looking at it, you can't help but realize how long it's been since you had last eaten. Just as you bite into it, you are overcome with an immense feeling of nausea, and fall to your feet- landing on your back pops the brownie out of your mouth, as well as the wind out of you. Grabbing a nearby large green potted plant for support, you clamber to your feet as the overwhelming feeling suddenly fades. Backing away from the brownies and glancing at the plant you happened to grab, you notice it's wilted almost completely. You're not hungry anymore.\n[[Back to Cafeteria->Cafeteria]]",
+      "links": [
+        {
+          "original": "[[Back to Cafeteria->Cafeteria]]",
+          "label": "Back to Cafeteria",
+          "newPassage": "Cafeteria",
+          "pid": "17",
+          "selection": "1"
+        }
+      ],
+      "cleanText": "Searching the numerous trays, you find a little less than half of a brownie. Holding it in your hand and looking at it, you can't help but realize how long it's been since you had last eaten. Just as you bite into it, you are overcome with an immense feeling of nausea, and fall to your feet- landing on your back pops the brownie out of your mouth, as well as the wind out of you. Grabbing a nearby large green potted plant for support, you clamber to your feet as the overwhelming feeling suddenly fades. Backing away from the brownies and glancing at the plant you happened to grab, you notice it's wilted almost completely. You're not hungry anymore."
+    },
+    {
+      "name": "Kitchen",
+      "tags": "1",
+      "pid": "34",
+      "text": "Walking into the kitchen, you see a generic large-scale kitchen for feeding the entire facility. Someone hasn't done the dishes in a long time.\n[[Search the kitchen->Search]]\n[[Back to main room->Cafeteria]]",
+      "links": [
+        {
+          "original": "[[Search the kitchen->Search]]",
+          "label": "Search the kitchen",
+          "newPassage": "Search",
+          "pid": "35",
+          "selection": "1"
+        },
+        {
+          "original": "[[Back to main room->Cafeteria]]",
+          "label": "Back to main room",
+          "newPassage": "Cafeteria",
+          "pid": "17",
+          "selection": "2"
+        }
+      ],
+      "cleanText": "Walking into the kitchen, you see a generic large-scale kitchen for feeding the entire facility. Someone hasn't done the dishes in a long time."
+    },
+    {
+      "name": "Search",
+      "tags": "2",
+      "pid": "35",
+      "text": "Looking through all of the cabinets in the kitchen, you find a decent amount of canned good as well as non-perishables, but nothing directly of use to you.\n[[Back to Cafeteria->Cafeteria]]",
+      "links": [
+        {
+          "original": "[[Back to Cafeteria->Cafeteria]]",
+          "label": "Back to Cafeteria",
+          "newPassage": "Cafeteria",
+          "pid": "17",
+          "selection": "1"
+        }
+      ],
+      "cleanText": "Looking through all of the cabinets in the kitchen, you find a decent amount of canned good as well as non-perishables, but nothing directly of use to you."
+    },
+    {
+      "name": "Exit",
+      "tags": "",
+      "pid": "36",
+      "text": "As you approach the door with the big red blinking \"Exit\" sign, you can start to hear a slight beeping. Pushing the door open and exiting, you find yourself in a narrow tunnel- lined with remote explosives. Upon realizing the stakes, you run towards the end of the tunnel quickly until encountering a stairwell. Rushing up it as fast as you can, you arrive at another door. Opening it, you get the feeling that this is the first time you've seen daylight in a long time. You take a moment to just breathe it in, and observe around you. You see some parked cars, and begin to think about if any of the keys could be back in the facility. Almost immediately after walking over to see if any of the cars were unlocked, you hear an earth-rending shudder which you can only assume to be the sealing of the underground facility. You start walking, towards the sun. You have no other choice.",
+      "links": [],
+      "cleanText": "As you approach the door with the big red blinking \"Exit\" sign, you can start to hear a slight beeping. Pushing the door open and exiting, you find yourself in a narrow tunnel- lined with remote explosives. Upon realizing the stakes, you run towards the end of the tunnel quickly until encountering a stairwell. Rushing up it as fast as you can, you arrive at another door. Opening it, you get the feeling that this is the first time you've seen daylight in a long time. You take a moment to just breathe it in, and observe around you. You see some parked cars, and begin to think about if any of the keys could be back in the facility. Almost immediately after walking over to see if any of the cars were unlocked, you hear an earth-rending shudder which you can only assume to be the sealing of the underground facility. You start walking, towards the sun. You have no other choice."
+    },
+    {
+      "name": "Passatmpt",
+      "tags": "1",
+      "pid": "37",
+      "text": "You are prompted by a very small monitor to enter a password for the tablet. You try:\n[[5213->Hint]]\n[[6612->Hint]]\n[[4998->Hint]]\n[[2345->Hint]]\n[[5003->Hint]]\n[[8235->Success]]\n[[8876->Hint]]\n[[4421->Hint]]\n[[6690->Hint]]\n[[1337->Hint]]\n[[7314->Hint]]\n[[8712->Hint]]\n[[6021->Hint]]\n[[Stop attempting to unlock the tablet->Administration]]",
+      "links": [
+        {
+          "original": "[[5213->Hint]]",
+          "label": "5213",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "1"
+        },
+        {
+          "original": "[[6612->Hint]]",
+          "label": "6612",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "2"
+        },
+        {
+          "original": "[[4998->Hint]]",
+          "label": "4998",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "3"
+        },
+        {
+          "original": "[[2345->Hint]]",
+          "label": "2345",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "4"
+        },
+        {
+          "original": "[[5003->Hint]]",
+          "label": "5003",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "5"
+        },
+        {
+          "original": "[[8235->Success]]",
+          "label": "8235",
+          "newPassage": "Success",
+          "pid": "39",
+          "selection": "6"
+        },
+        {
+          "original": "[[8876->Hint]]",
+          "label": "8876",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "7"
+        },
+        {
+          "original": "[[4421->Hint]]",
+          "label": "4421",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "8"
+        },
+        {
+          "original": "[[6690->Hint]]",
+          "label": "6690",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "9"
+        },
+        {
+          "original": "[[1337->Hint]]",
+          "label": "1337",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "10"
+        },
+        {
+          "original": "[[7314->Hint]]",
+          "label": "7314",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "11"
+        },
+        {
+          "original": "[[8712->Hint]]",
+          "label": "8712",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "12"
+        },
+        {
+          "original": "[[6021->Hint]]",
+          "label": "6021",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "13"
+        },
+        {
+          "original": "[[Stop attempting to unlock the tablet->Administration]]",
+          "label": "Stop attempting to unlock the tablet",
+          "newPassage": "Administration",
+          "pid": "18",
+          "selection": "14"
+        }
+      ],
+      "cleanText": "You are prompted by a very small monitor to enter a password for the tablet. You try:"
+    },
+    {
+      "name": "Hint",
+      "tags": "1",
+      "pid": "38",
+      "text": "The number you typed in wipes from the input box, and a prompt appears.\n\"HINT: THE DAY WE SET OUT TO REINVENT HUMANITY\"\n[[6713->Hint]]\n[[8823->Hint]]\n[[9981->Hint]]\n[[2234->Hint]]\n[[7731->Hint]]\n[[5124->Hint]]\n[[5462->Hint]]\n[[8378->Hint]]\n[[4538->Hint]]\n[[5437->Hint]]\n[[8235->Success]]\n[[3758->Hint]]\n[[Stop attempting to unlock the tablet->Administration]]",
+      "links": [
+        {
+          "original": "[[6713->Hint]]",
+          "label": "6713",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "1"
+        },
+        {
+          "original": "[[8823->Hint]]",
+          "label": "8823",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "2"
+        },
+        {
+          "original": "[[9981->Hint]]",
+          "label": "9981",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "3"
+        },
+        {
+          "original": "[[2234->Hint]]",
+          "label": "2234",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "4"
+        },
+        {
+          "original": "[[7731->Hint]]",
+          "label": "7731",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "5"
+        },
+        {
+          "original": "[[5124->Hint]]",
+          "label": "5124",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "6"
+        },
+        {
+          "original": "[[5462->Hint]]",
+          "label": "5462",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "7"
+        },
+        {
+          "original": "[[8378->Hint]]",
+          "label": "8378",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "8"
+        },
+        {
+          "original": "[[4538->Hint]]",
+          "label": "4538",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "9"
+        },
+        {
+          "original": "[[5437->Hint]]",
+          "label": "5437",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "10"
+        },
+        {
+          "original": "[[8235->Success]]",
+          "label": "8235",
+          "newPassage": "Success",
+          "pid": "39",
+          "selection": "11"
+        },
+        {
+          "original": "[[3758->Hint]]",
+          "label": "3758",
+          "newPassage": "Hint",
+          "pid": "38",
+          "selection": "12"
+        },
+        {
+          "original": "[[Stop attempting to unlock the tablet->Administration]]",
+          "label": "Stop attempting to unlock the tablet",
+          "newPassage": "Administration",
+          "pid": "18",
+          "selection": "13"
+        }
+      ],
+      "cleanText": "The number you typed in wipes from the input box, and a prompt appears.\n\"HINT: THE DAY WE SET OUT TO REINVENT HUMANITY\""
+    },
+    {
+      "name": "Success",
+      "tags": "8",
+      "pid": "39",
+      "text": "The screen goes blank as soon as you type in the 5 in 8235. An announcement from that same speaker behind your head bellows: \"Beginning data transfer for Homunculus project.\" This might take a while.",
+      "links": [],
+      "cleanText": "The screen goes blank as soon as you type in the 5 in 8235. An announcement from that same speaker behind your head bellows: \"Beginning data transfer for Homunculus project.\" This might take a while."
+    },
+    {
+      "name": "Administrationfake",
+      "tags": "1",
+      "pid": "40",
+      "text": "You enter the administration office to a well-decorated room, far from the clean atmosphere of the Hallway or Airlock. Towards the back of the room, there is a large desk with a nameplate. It reads \"Michael Clark\". All along the sides of the room are cabinets, which appear to be locked. In a burst of curiosity, you sit down at the chair to see if any of the desk cabinets are unlocked. Suddenly, a speaker near your head blares: \"COMMENCING DATA BACKUP. PLEASE SUBMIT DEVICE. The nameplate is kicked over and reveals a small docking port.",
+      "links": [],
+      "cleanText": "You enter the administration office to a well-decorated room, far from the clean atmosphere of the Hallway or Airlock. Towards the back of the room, there is a large desk with a nameplate. It reads \"Michael Clark\". All along the sides of the room are cabinets, which appear to be locked. In a burst of curiosity, you sit down at the chair to see if any of the desk cabinets are unlocked. Suddenly, a speaker near your head blares: \"COMMENCING DATA BACKUP. PLEASE SUBMIT DEVICE. The nameplate is kicked over and reveals a small docking port."
     }
   ]
 }

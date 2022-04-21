@@ -58,6 +58,7 @@ while True:
     break
   pid = update(hmc, current_location, pid, response)
   current_location = find_current_location(hmc, pid)
+  if current_location["pid"] == 
   render(hmc, current_location)
   gl_count = count_moves(gl_count)
   print(gl_count)
