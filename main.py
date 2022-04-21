@@ -64,7 +64,12 @@ while True:
   if pid != "" and pid not in visited:
     visited.append(pid)
   current_location = find_current_location(hmc, pid)
+
   render(hmc, current_location, visited)
+
+  if current_location["pid"] == 
+  render(hmc, current_location)
+
   gl_count = count_moves(gl_count)
   print(gl_count)
   #print(visited)
