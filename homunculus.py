@@ -82,7 +82,7 @@ world = {
     },
     {
       "name": "Examine lockers",
-      "tags": "",
+      "tags": "5",
       "pid": "5",
       "text": "The lockers have small, glowing devices on where the handle would be, with a small slot that looks about the size of the ID card you found next to you when you awoke. \n[[Back to room->Airlock]]\n[[Attempt to open lockers->Attempt to open lockers]]",
       "links": [
