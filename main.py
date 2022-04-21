@@ -54,7 +54,7 @@ gl_count = 0
 while True:
   if response == "QUIT":
     break
-  elif gl_count > 10:
+  if gl_count >= 10:
     break
   pid = update(hmc, current_location, pid, response)
   current_location = find_current_location(hmc, pid)
@@ -63,3 +63,4 @@ while True:
   print(gl_count)
   response = get_input()
 print("Thanks for playing!")
+print("Your total action count was: {}".format(str(gl_count)))

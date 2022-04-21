@@ -74,7 +74,7 @@ world = {
           "original": "[[Attempt to open the door->Attempt to open door ]]",
           "label": "Attempt to open the door",
           "newPassage": "Attempt to open door",
-          "pid": "",
+          "pid": "6",
           "selection": "2"
         }
       ],
@@ -82,7 +82,7 @@ world = {
     },
     {
       "name": "Examine lockers",
-      "tags": "5",
+      "tags": "",
       "pid": "5",
       "text": "The lockers have small, glowing devices on where the handle would be, with a small slot that looks about the size of the ID card you found next to you when you awoke. \n[[Back to room->Airlock]]\n[[Attempt to open lockers->Attempt to open lockers]]",
       "links": [
@@ -192,7 +192,7 @@ world = {
       "name": "Attempt to unlock tablet",
       "tags": "1",
       "pid": "10",
-      "text": "You punch in multiple 4 number combinations to the tablet, without avail.\n[[Back to room->Airlock]]",
+      "text": "You punch in a 4 number combination to the tablet, without avail.\n[[Back to room->Airlock]]\n[[Try again->Attempt2]]",
       "links": [
         {
           "original": "[[Back to room->Airlock]]",
@@ -200,9 +200,16 @@ world = {
           "newPassage": "Airlock",
           "pid": "4",
           "selection": "1"
+        },
+        {
+          "original": "[[Try again->Attempt2]]",
+          "label": "Try again",
+          "newPassage": "Attempt2",
+          "pid": "32",
+          "selection": "2"
         }
       ],
-      "cleanText": "You punch in multiple 4 number combinations to the tablet, without avail."
+      "cleanText": "You punch in a 4 number combination to the tablet, without avail."
     },
     {
       "name": "Hallway",
@@ -296,25 +303,25 @@ world = {
       "name": "Morgue",
       "tags": "1",
       "pid": "13",
-      "text": "Passing into the morgue, you are overcome with an oppressive feeling of interruption- you are not meant to be here. In one of the corners is a pile of bodies, appearing to be hastily thrown out of the way. There is also a surgical table in the center of the room, right above red-stained drain.\n[[1->Investigate bodies]]\n[[2->Investigate table]]\n[[3->Hallway]]",
+      "text": "Passing into the morgue, you are overcome with an oppressive feeling of interruption- you are not meant to be here. In one of the corners is a pile of bodies, appearing to be hastily thrown out of the way. There is also a surgical table in the center of the room, right above red-stained drain.\n[[Investigate the pile of bodies->Investigate bodies]]\n[[Examine the surgical table->Investigate table]]\n[[Back to Hallway->Hallway]]",
       "links": [
         {
-          "original": "[[1->Investigate bodies]]",
-          "label": "1",
+          "original": "[[Investigate the pile of bodies->Investigate bodies]]",
+          "label": "Investigate the pile of bodies",
           "newPassage": "Investigate bodies",
           "pid": "21",
           "selection": "1"
         },
         {
-          "original": "[[2->Investigate table]]",
-          "label": "2",
+          "original": "[[Examine the surgical table->Investigate table]]",
+          "label": "Examine the surgical table",
           "newPassage": "Investigate table",
           "pid": "22",
           "selection": "2"
         },
         {
-          "original": "[[3->Hallway]]",
-          "label": "3",
+          "original": "[[Back to Hallway->Hallway]]",
+          "label": "Back to Hallway",
           "newPassage": "Hallway",
           "pid": "11",
           "selection": "3"
@@ -356,7 +363,7 @@ world = {
       "name": "Training",
       "tags": "1",
       "pid": "15",
-      "text": "The room marked \"Training\" seems to be a hybrid, combining a meeting and lecture space with what seems like a gym. The classroom portion has a board, a single desk, and is filled with bookshelves, while the other portion is filled with what looks to be exercise machinery and medical tech.\n[[Investigate the Gym->Gym]]\n[[Investigate the School->School]]",
+      "text": "The room marked \"Training\" seems to be a hybrid, combining a meeting and lecture space with what seems like a gym. The classroom portion has a board, a single desk, and is filled with bookshelves, while the other portion is filled with what looks to be exercise machinery and medical tech.\n[[Investigate the Gym->Gym]]\n[[Investigate the School->School]]\n[[Back to Hallway->Hallway]]",
       "links": [
         {
           "original": "[[Investigate the Gym->Gym]]",
@@ -371,6 +378,13 @@ world = {
           "newPassage": "School",
           "pid": "28",
           "selection": "2"
+        },
+        {
+          "original": "[[Back to Hallway->Hallway]]",
+          "label": "Back to Hallway",
+          "newPassage": "Hallway",
+          "pid": "11",
+          "selection": "3"
         }
       ],
       "cleanText": "The room marked \"Training\" seems to be a hybrid, combining a meeting and lecture space with what seems like a gym. The classroom portion has a board, a single desk, and is filled with bookshelves, while the other portion is filled with what looks to be exercise machinery and medical tech."
@@ -656,6 +670,29 @@ world = {
         }
       ],
       "cleanText": "Approaching the pile of paper, it's raised a good couple of inches above the rest of the paperin the room, as well as having a circle around it revealing the dark and burnt floor of the library. Sifting through the paper, you find a pile of clothes, dirtied by sitting on top of a pile of ash. As you search the clothes, you find a hastily written note on a small piece of paper. It was scribbled so quickly that it's almost illegible.\nIt reads: \"What we have done here is nothing short of monstrous Theres no denying this but we did it anyway I knew something would happen to us for what we did Getting arrested kidnapping for our research even assassination wasnt off the table but it turns out we may pay for our crimes sooner than we thought Every time we studied dangerous alchemical rites there was always mention of a cost We thought it would be energy that we could supply or some sacrifice we would commit but in reality I think it is much worse Every major rite we studied came from an alchemist who went missing whose face was never seen When I tried warning the others they called me paranoid and some of them even laughed at me I figured hiding in the Library would be my best bet considering how many protective charms are here I pray Im paranoid but in the case that Im not and even these charms cant save me I ask whoever is reading this please dont repeat our mistakes\""
+    },
+    {
+      "name": "Attempt2",
+      "tags": "1",
+      "pid": "32",
+      "text": "You hurriedly tap in another code, just to be met with the same locked screen.\n[[Back to room->Airlock]]\n[[Try again->Attempt2]]",
+      "links": [
+        {
+          "original": "[[Back to room->Airlock]]",
+          "label": "Back to room",
+          "newPassage": "Airlock",
+          "pid": "4",
+          "selection": "1"
+        },
+        {
+          "original": "[[Try again->Attempt2]]",
+          "label": "Try again",
+          "newPassage": "Attempt2",
+          "pid": "32",
+          "selection": "2"
+        }
+      ],
+      "cleanText": "You hurriedly tap in another code, just to be met with the same locked screen."
     }
   ]
 }
