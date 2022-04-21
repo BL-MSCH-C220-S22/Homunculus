@@ -34,11 +34,10 @@ def update(world, current_location, current_pid, response):
   print("I don't know what you are trying to do.")
   return current_pid
 
-def count_moves():
-  count = gl_count
-  if current_location["tags"] == "":
-    pass
-  elif int(current_location["tags"]) > 0:
+def count_moves(count):
+  if "tags" not in current_location or current_location["tags"] == "" or not current_location["tags"].isnumeric():
+    return count 
+  if int(current_location["tags"]) > 0:
     count += int(current_location["tags"])
   return count
 
@@ -60,6 +59,7 @@ while True:
   pid = update(hmc, current_location, pid, response)
   current_location = find_current_location(hmc, pid)
   render(hmc, current_location)
-  print(count_moves())
+  gl_count = count_moves(gl_count)
+  print(gl_count)
   response = get_input()
 print("Thanks for playing!")
