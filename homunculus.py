@@ -74,7 +74,7 @@ world = {
           "original": "[[Attempt to open the door->Attempt to open door ]]",
           "label": "Attempt to open the door",
           "newPassage": "Attempt to open door",
-          "pid": "",
+          "pid": "6",
           "selection": "2"
         }
       ],
@@ -262,9 +262,18 @@ world = {
         {
           "original": "[[To the Admin rooms->Administrationfake]]",
           "label": "To the Admin rooms",
+          "newPassage": "Administration",
+          "pid": "18",
+          "selection": "7",
+          "requires":"10"
+        },
+        {
+          "original": "[[To the Admin rooms->Administrationfake]]",
+          "label": "To the Admin rooms",
           "newPassage": "Administrationfake",
           "pid": "40",
-          "selection": "7"
+          "selection": "7",
+          "excludes": "10"
         },
         {
           "original": "[[To the Exit->Exit]]",
@@ -460,17 +469,24 @@ world = {
       "name": "Administration",
       "tags": "1",
       "pid": "18",
-      "text": "You enter the administration office to a well-decorated room, far from the clean atmosphere of the Hallway or Airlock. Towards the back of the room, there is a large desk with a nameplate. It reads \"Michael Clark\". All along the sides of the room are cabinets, which appear to be locked. In a burst of curiosity, you sit down at the chair to see if any of the desk cabinets are unlocked. Suddenly, a speaker near your head blares: \"COMMENCING DATA BACKUP. PLEASE SUBMIT DEVICE. The nameplate is kicked over and reveals a small docking port.\n[[Connect the tablet->Passatmpt]]",
+      "text": "You enter the administration office to a well-decorated room, far from the clean atmosphere of the Hallway or Airlock. Towards the back of the room, there is a large desk with a nameplate. It reads \"Michael Clark\". All along the sides of the room are cabinets, which appear to be locked. In a burst of curiosity, you sit down at the chair to see if any of the desk cabinets are unlocked. Suddenly, a speaker near your head blares: \"COMMENCING DATA BACKUP. PLEASE SUBMIT DEVICE.\" The nameplate is kicked over and reveals a small docking port.\n[[Connect the tablet->Passatmpt]]\n[[Return to Hallway->Hallway]]",
       "links": [
         {
           "original": "[[Connect the tablet->Passatmpt]]",
           "label": "Connect the tablet",
           "newPassage": "Passatmpt",
           "pid": "37",
-          "selection": "1"
+          "selection": "1",
+        },
+        {
+          "original": "[[Return to Hallway->Hallway]]",
+          "label": "Return to Hallway",
+          "newPassage": "Hallway",
+          "pid": "11",
+          "selection": "2",
         }
       ],
-      "cleanText": "You enter the administration office to a well-decorated room, far from the clean atmosphere of the Hallway or Airlock. Towards the back of the room, there is a large desk with a nameplate. It reads \"Michael Clark\". All along the sides of the room are cabinets, which appear to be locked. In a burst of curiosity, you sit down at the chair to see if any of the desk cabinets are unlocked. Suddenly, a speaker near your head blares: \"COMMENCING DATA BACKUP. PLEASE SUBMIT DEVICE. The nameplate is kicked over and reveals a small docking port."
+      "cleanText": "You enter the administration office to a well-decorated room, far from the clean atmosphere of the Hallway or Airlock. Towards the back of the room, there is a large desk with a nameplate. It reads \"Michael Clark\". All along the sides of the room are cabinets, which appear to be locked. In a burst of curiosity, you sit down at the chair to see if any of the desk cabinets are unlocked. Suddenly, a speaker near your head blares: \"COMMENCING DATA BACKUP. PLEASE SUBMIT DEVICE.\" The nameplate is kicked over and reveals a small docking port."
     },
     {
       "name": "Investigate the table",
@@ -1038,9 +1054,9 @@ world = {
       "name": "gameover",
       "tags": "",
       "pid": "41",
-      "text": "\"Through the secrets of Alchemy, we have created a new human. Something stronger faster and smarter than anyone before us. By using the greatest of humanity we created our future as a species. While our work has been long and painful, while we have done many things others would see as unforgivable, in the end, what we have done will lead humanity to a bright future. I look forward to a future with the homo-homunculus.\" -Micheal Clark’s speech",
+      "text": "",
       "links": [],
-      "cleanText": "\"Through the secrets of Alchemy, we have created a new human. Something stronger faster and smarter than anyone before us. By using the greatest of humanity we created our future as a species. While our work has been long and painful, while we have done many things others would see as unforgivable, in the end, what we have done will lead humanity to a bright future. I look forward to a future with the homo-homunculus.\" -Micheal Clark’s speech"
+      "cleanText": ""
     }
   ]
 }
