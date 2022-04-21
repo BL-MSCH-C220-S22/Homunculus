@@ -262,6 +262,12 @@ world = {
         {
           "original": "[[To the Admin rooms->Administrationfake]]",
           "label": "To the Admin rooms",
+
+          "newPassage": "Administration",
+          "pid": "18",
+          "selection": "7",
+          "requires":"12"
+
           "newPassage": "Administrationfake",
           "pid": "40",
           "selection": "7"
@@ -272,6 +278,7 @@ world = {
           "newPassage": "Exit",
           "pid": "36",
           "selection": "8"
+
         }
       ],
       "cleanText": "You walk through the door from the airlock into a large, nine-sided room. There are 9 doors, one for each side of the room- counting the one you just walked in from. They have labels above the doors for each branch off of the hallway."
